@@ -6,7 +6,7 @@ class Application
     Morning = (1..11)
     Afternoon = (12..24)
 
-    if Morning
+    if Afternoon
       resp.write "Good Afternoon!"
     else
       resp.write "Good Morning!"
