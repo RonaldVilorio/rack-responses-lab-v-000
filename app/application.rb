@@ -11,7 +11,7 @@ class Application
     if rand_time.between?(1..11)
       resp.write "Good Morning!"
     else rand_time.between?(12..24)
-      resp.write "Good Morning!"
+      resp.write "Good Afternoon"
     end
 
     resp.finish
