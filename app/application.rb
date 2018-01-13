@@ -5,7 +5,7 @@ class Application
 
     time = Time.new
     if time.strftime("%k:%M").to_i < 12
-      resp.write "Good Morning!"
+      resp.write "Good Afternoon!"
     else
       resp.write "Good Afternoon!"
     end
