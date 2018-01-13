@@ -8,7 +8,7 @@ class Application
     Morning = (1..11)
     Afternoon = (12..24)
 
-    if
+    if rand_time.between?(1..11)
       resp.write "Good Afternoon!"
     else Morning
       resp.write "Good Morning!"
