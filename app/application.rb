@@ -5,9 +5,6 @@ class Application
 
     rand_time = Kernel.rand(1..24)
 
-    Morning = (1..11)
-    Afternoon = (12..24)
-
     if rand_time.between?(1..11)
       resp.write "Good Morning!"
     else rand_time.between?(12..24)
