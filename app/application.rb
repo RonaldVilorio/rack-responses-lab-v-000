@@ -6,7 +6,7 @@ class Application
     time = Time.new
     if time.strftime("%k:%M").to_i > 12
       resp.write "Good Afternoon!"
-    elsif time.strftime("%k:%M").to_i < 12
+    else
       resp.write "Good Morning!"
     end
 
