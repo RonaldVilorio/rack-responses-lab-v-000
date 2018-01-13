@@ -4,6 +4,7 @@ class Application
     resp = Rack::Response.new
 
     Morning = (1..11)
+    Afternoon = (12..24)
 
     if
       resp.write "Good Afternoon!"
